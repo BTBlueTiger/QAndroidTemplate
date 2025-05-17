@@ -1,0 +1,78 @@
+# === Qt Creator ===
+*.autosave
+*.user
+*.user.*
+*.pro.user*
+*.qbs.user*
+*.creator.*
+*.creator
+
+# Qt build directories
+build-*/
+build/
+out/
+debug/
+release/
+
+# CMake files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Qt resource compiler
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
+
+# Object and binary files
+*.o
+*.obj
+*.so
+*.a
+*.dll
+*.exe
+
+# Log files
+*.log
+
+# Backup files
+*~
+*.swp
+*.bak
+
+# Android Gradle build
+.gradle/
+.idea/
+*.iml
+local.properties
+*.apk
+*.ap_
+*.dex
+android/build/
+android/.gradle/
+android/.idea/
+android/local.properties
+android/cmake-build-*/ 
+android/.externalNativeBuild/
+
+# Android Studio files
+captures/
+.externalNativeBuild/
+.cxx/
+
+# NDK + JNI build outputs
+*.so
+*.hprof
+
+# Generated Java / Kotlin sources
+android/app/build/
+android/app/.cxx/
+
+# Qt-generated Android files (only if re-generated every time)
+android/AndroidManifest.xml
+android/res/
+android/gradle/
+android/build.gradle
+android/gradlew*
+android/settings.gradle
